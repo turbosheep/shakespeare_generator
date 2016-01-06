@@ -2194,5 +2194,5 @@ var generate = function(lines) {
     line = line.join(' ') //make line a string and push it onto the finalized list
     finished.push(line);
   }
-  return finished.join('/n');
+  return finished.join('\n');
 }
