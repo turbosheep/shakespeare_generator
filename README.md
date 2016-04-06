@@ -1,3 +1,5 @@
 # shakespeare_generator
 
-Uses markov chains to create shakespearean sonnets.
+Inspired by social media bots like [@thinkpiecebot](https://twitter.com/thinkpiecebot?lang=en), [@MagicRealismBot](https://twitter.com/magicrealismbot), and the [colorful gradients tumblr](http://colorfulgradients.tumblr.com/) where bots are in charge of and post to social media accounts with automatically generated text or images, I’ve decided I want to try my hand at it.
+
+My current ideas are creating a tumblr account that automatically generates Shakespearean sonnets using Markov Chains. For now, I have created a simple implementation that chooses a start word for every linea nd picks words from there, ending the line if there is not a word following the most recently chosen. It is not capable of finding rhyming words to follow the abab cdcd efef gg pattern that Shakespeare’s sonnets follow, but that is a feature I hope to look into implementing. In the near future I hope to assign this bot to a tumblr I created and have it post regularly. I have set up an amazon web services account to host it, but have not done anything about connecting the three elements together yet.
